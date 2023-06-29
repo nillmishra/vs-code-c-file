@@ -1,3 +1,4 @@
+//1st function calling
 #include <stdio.h>
 int factorial(int x){
     int fact=1;
@@ -7,6 +8,7 @@ int factorial(int x){
     }
     return fact;
 }
+//2nd function k andar 1st ka calling hai
 int combination(int n, int r){
     int ncr=factorial(n)/(factorial(r)*factorial(n-r));
     return ncr;

@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main(int argc, char const *argv[])
 {
-    int n;
+    int a, n;
     printf("Enter the number of line: ");
     scanf("%d", &n);
     for (int i = 1; i <=n; i++) 

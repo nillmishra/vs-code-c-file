@@ -1,6 +1,6 @@
 #include <stdio.h>
 int add(int a, int b){
-    return a+b;
+    return a+b; //return type
 }
 int main(int argc, char const *argv[])
 {
@@ -14,3 +14,5 @@ int main(int argc, char const *argv[])
     printf("%d", sum);
     return 0;
 }
+// pass by value use hua hai
+// dono dabbe ka a,b alag alag hai
